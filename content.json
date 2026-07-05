@@ -1,0 +1,378 @@
+{
+  "_meta": {
+    "note": "All content translated to English and structured from the source PDF. Placeholder fields (empty strings) are yours to fill: emails, URLs, thumbnails, photos, bio wording. Ministry (MEN) point values from the original were omitted as Poland-specific; venue rankings (CORE / journal quartile) were kept. Nothing here is styling — this is pure data so you can restyle freely later.",
+    "highlight_author": "Plocharski",
+    "last_updated": "2026-07-05"
+  },
+
+  "profile": {
+    "name": "Aleksander Plocharski",
+    "title": "PhD Candidate in Computer Graphics",
+    "affiliations": [
+      "Warsaw University of Technology — Faculty of Mathematics and Information Science",
+      "Computer Graphics Research Group, Akces NCBR"
+    ],
+    "location": "Warsaw, Poland",
+    "photo": "",
+    "emails": [""],
+    "links": {
+      "google_scholar": "",
+      "github": "",
+      "linkedin": "",
+      "orcid": "",
+      "cv_pdf": ""
+    },
+    "bio_draft": "I work on the precision and controllability of neural models for graphics — neural signed distance fields, procedural and neuro-symbolic modeling, and machine learning for geometry. Before the PhD I was an R&D engineer at CD PROJEKT RED.",
+    "research_interests": [
+      "Computer graphics",
+      "Geometric modeling",
+      "Neural signed distance fields (SDFs)",
+      "Procedural & neuro-symbolic modeling",
+      "Machine learning for graphics",
+      "Architectural facade reconstruction & generation",
+      "CAD / CAD-CAM systems"
+    ]
+  },
+
+  "nav": [
+    { "id": "research", "label": "research", "title": "Research" },
+    { "id": "teaching", "label": "teaching", "title": "Teaching" },
+    { "id": "hobbies", "label": "hobbies", "title": "Hobbies" },
+    { "id": "about", "label": "about / cv", "label_mobile": "about", "title": "About / CV" }
+  ],
+
+  "highlights": [
+    { "label": "award", "text": "2nd place — ACM SIGGRAPH 2024 Student Research Competition (Graduate)" },
+    { "label": "2026", "text": "Three top-venue papers — EUROGRAPHICS ×2, Computer Graphics Forum" },
+    { "label": "service", "text": "IPC member — EUROGRAPHICS 2026, Short Papers track" }
+  ],
+
+  "wip": {
+    "label": "// work in progress",
+    "heading": "This section is being written",
+    "notes": {
+      "hobbies": "Hobbies & interests outside research will live here — coming soon.",
+      "about": "A fuller bio, education, experience and a downloadable CV will live here — coming soon."
+    }
+  },
+
+  "publications": [
+    {
+      "id": "pro-dg-2026",
+      "title": "Pro-DG: Procedural Diffusion Guidance for Architectural Facade Generation",
+      "authors": ["A. Plocharski", "J. Świdziński", "P. Musialski"],
+      "venue": "Computer Graphics Forum",
+      "venue_type": "journal",
+      "year": 2026,
+      "rank": "Q1",
+      "status": "Accepted, in press",
+      "type": "paper",
+      "links": { "paper": "", "project": "", "code": "", "pdf": "" },
+      "thumbnail": ""
+    },
+    {
+      "id": "beyond-segmentation-2026",
+      "title": "Beyond Segmentation: Structurally Informed Facade Parsing from Imperfect Images",
+      "authors": ["A. Plocharski", "P. Nieciecki", "P. Musialski"],
+      "venue": "EUROGRAPHICS 2026",
+      "venue_type": "conference",
+      "year": 2026,
+      "rank": "CORE A",
+      "status": "Accepted; to be published after the conference (05.2026)",
+      "type": "paper",
+      "links": { "paper": "", "project": "", "code": "", "pdf": "" },
+      "thumbnail": ""
+    },
+    {
+      "id": "comfortable-world-2026",
+      "title": "What a Comfortable World: Ergonomic Principles Guided Apartment Layout Generation",
+      "authors": ["A. Plocharski", "P. Nieciecki", "P. Musialski"],
+      "venue": "EUROGRAPHICS 2026",
+      "venue_type": "conference",
+      "year": 2026,
+      "rank": "CORE A",
+      "status": "Accepted; to be published after the conference (05.2026)",
+      "type": "paper",
+      "links": { "paper": "", "project": "", "code": "", "pdf": "" },
+      "thumbnail": ""
+    },
+    {
+      "id": "finite-difference-sdf-2025",
+      "title": "A Finite Difference Approximation of Second Order Regularization of Neural-SDFs",
+      "authors": ["H. Yin", "A. Plocharski", "M. J. Włodarczyk", "P. Musialski"],
+      "venue": "SIGGRAPH Asia 2025",
+      "venue_type": "conference",
+      "year": 2025,
+      "rank": "CORE A*",
+      "status": "Published",
+      "type": "paper",
+      "links": { "paper": "", "project": "", "code": "", "pdf": "" },
+      "thumbnail": ""
+    },
+    {
+      "id": "flatcad-2025",
+      "title": "FlatCAD: Fast Curvature Regularization of Neural SDFs for CAD Models",
+      "authors": ["A. Plocharski", "H. Yin", "M. J. Włodarczyk", "M. Kida", "P. Musialski"],
+      "venue": "Computer Graphics Forum",
+      "venue_type": "journal",
+      "year": 2025,
+      "rank": "Q1",
+      "status": "Published",
+      "type": "paper",
+      "links": { "paper": "", "project": "", "code": "", "pdf": "" },
+      "thumbnail": ""
+    },
+    {
+      "id": "taking-control-2025",
+      "title": "Taking Control: Procedural Diffusion Guidance for Architectural Facade Editing",
+      "authors": ["A. Plocharski", "J. Świdziński", "P. Musialski"],
+      "venue": "SIGGRAPH 2025",
+      "venue_type": "conference",
+      "year": 2025,
+      "rank": "CORE A*",
+      "status": "Published",
+      "type": "poster",
+      "links": { "paper": "", "project": "", "code": "", "pdf": "" },
+      "thumbnail": ""
+    },
+    {
+      "id": "facaid-2024",
+      "title": "FaçAID: A Transformer Model for Neuro-Symbolic Facade Reconstruction",
+      "authors": ["A. Plocharski", "J. Świdziński", "J. Porter-Sobieraj", "P. Musialski"],
+      "venue": "SIGGRAPH Asia 2024",
+      "venue_type": "conference",
+      "year": 2024,
+      "rank": "CORE A*",
+      "status": "Published",
+      "type": "paper",
+      "links": { "paper": "", "project": "", "code": "", "pdf": "" },
+      "thumbnail": ""
+    },
+    {
+      "id": "neuro-symbolic-facades-2024",
+      "title": "Neuro-Symbolic Transformation of Architectural Facades into Their Procedural Representations",
+      "authors": ["A. Plocharski", "J. Świdziński", "J. Porter-Sobieraj", "P. Musialski"],
+      "venue": "SIGGRAPH 2024",
+      "venue_type": "conference",
+      "year": 2024,
+      "rank": "CORE A*",
+      "status": "Published",
+      "type": "poster",
+      "award": "2nd place — ACM SIGGRAPH 2024 Student Research Competition (Graduate category)",
+      "award_short": "SRC 2nd place",
+      "links": { "paper": "", "project": "", "code": "", "pdf": "" },
+      "thumbnail": ""
+    },
+    {
+      "id": "skeleton-tetrahedralization-2024",
+      "title": "Skeleton based tetrahedralization of surface meshes",
+      "authors": ["A. Plocharski", "J. Porter-Sobieraj", "A. Lamecki", "T. Herman", "A. Uszakow"],
+      "venue": "Computer Aided Geometric Design",
+      "venue_type": "journal",
+      "year": 2024,
+      "rank": "Q2",
+      "status": "Published",
+      "type": "paper",
+      "links": { "paper": "", "project": "", "code": "", "pdf": "" },
+      "thumbnail": ""
+    },
+    {
+      "id": "terrain-reservoirs-2023",
+      "title": "Simulating Large-Scale Topographic Terrain Features with Reservoirs and Flowing Water",
+      "authors": ["Ł. Błaszczyk", "M. Mizura", "A. Plocharski", "J. Porter-Sobieraj"],
+      "venue": "FedCSIS 2023",
+      "venue_type": "conference",
+      "year": 2023,
+      "rank": "",
+      "status": "Published",
+      "type": "paper",
+      "links": { "paper": "", "project": "", "code": "", "pdf": "" },
+      "thumbnail": ""
+    }
+  ],
+
+  "talks": {
+    "conference_presentations": [
+      { "date": "2026-05", "event": "EUROGRAPHICS 2026", "location": "Aachen, Germany", "title": "Beyond Segmentation: Structurally Informed Facade Parsing from Imperfect Images", "type": "paper", "upcoming": true },
+      { "date": "2026-05", "event": "EUROGRAPHICS 2026", "location": "Aachen, Germany", "title": "What a Comfortable World: Ergonomic Principles Guided Apartment Layout Generation", "type": "paper", "upcoming": true },
+      { "date": "2025-12", "event": "SIGGRAPH Asia 2025", "location": "Hong Kong, China", "title": "A Finite Difference Approximation of Second Order Regularization of Neural-SDFs", "type": "paper", "upcoming": false },
+      { "date": "2025-10", "event": "Pacific Graphics 2025", "location": "Taipei, Taiwan", "title": "FlatCAD: Fast Curvature Regularization of Neural SDFs for CAD Models", "type": "paper", "upcoming": false },
+      { "date": "2025-08", "event": "SIGGRAPH 2025", "location": "Vancouver, Canada", "title": "Taking Control: Procedural Diffusion Guidance for Architectural Facade Editing", "type": "poster", "upcoming": false },
+      { "date": "2024-12", "event": "SIGGRAPH Asia 2024", "location": "Tokyo, Japan", "title": "FaçAID: A Transformer Model for Neuro-Symbolic Facade Reconstruction", "type": "paper", "upcoming": false },
+      { "date": "2024-07", "event": "SIGGRAPH 2024", "location": "Denver, United States", "title": "Neuro-Symbolic Transformation of Architectural Facades into Their Procedural Representations", "type": "poster", "upcoming": false },
+      { "date": "2024-06", "event": "Geometric Modeling and Processing (GMP 2024)", "location": "Qingdao, China", "title": "Skeleton based tetrahedralization of surface meshes", "type": "paper", "upcoming": false }
+    ],
+    "other_talks": [
+      { "date": "2024-11", "event": "Computer Graphics Research Group Seminar, IDEAS NCBR", "location": "Warsaw, Poland", "title": "FaçAID: A Transformer Model for Neuro-Symbolic Facade Reconstruction", "type": "seminar" },
+      { "date": "2024-10", "event": "Game Industry Conference", "location": "Poznań, Poland", "title": "AI Creativity – The Future of Creation", "type": "panel", "description": "Four-person panel on how AI is transforming creative processes, including the ethical challenges of growing human–AI collaboration." },
+      { "date": "2024-09", "event": "Computer Graphics Workshop, IDEAS NCBR", "location": "Warsaw, Poland", "title": "Neuro-Symbolic Models for Procedural Modeling", "type": "workshop" },
+      { "date": "2024-06", "event": "Data Science Summit ML Edition 2024", "location": "Warsaw, Poland", "title": "How to make transformers understand geometry?", "type": "popular-science" },
+      { "date": "2024-05", "event": "Departmental Seminar, Faculty of Mathematics and Information Science, Warsaw University of Technology (CAD/CAM Systems Design & Computer-Aided Medicine)", "location": "Warsaw, Poland", "title": "Skeleton based tetrahedralization of surface meshes", "type": "seminar" },
+      { "date": "2023-09", "event": "Conference on Computer Science and Intelligence Systems (FedCSIS 2023)", "location": "Warsaw, Poland", "title": "Simulating Large-Scale Topographic Terrain Features with Reservoirs and Flowing Water", "type": "paper" }
+    ]
+  },
+
+  "reviewing": [
+    { "venue": "SIGGRAPH 2026", "location": "Los Angeles, United States", "rank": "CORE A*", "track": "Technical Papers" },
+    { "venue": "EUROGRAPHICS 2026", "location": "Aachen, Germany", "rank": "CORE A", "track": "Short Papers" },
+    { "venue": "EUROGRAPHICS 2026", "location": "Aachen, Germany", "rank": "CORE A", "track": "Technical Papers" },
+    { "venue": "SIGGRAPH Asia 2025", "location": "Hong Kong, China", "rank": "CORE A*", "track": "Technical Papers" },
+    { "venue": "Pacific Graphics 2025", "location": "Taipei, Taiwan", "rank": "", "track": "Technical Papers" }
+  ],
+
+  "committees": [
+    {
+      "role": "International Programme Committee Member (Short Papers)",
+      "title_short": "International Programme Committee — EUROGRAPHICS 2026",
+      "track": "Short Papers",
+      "venue": "EUROGRAPHICS 2026 — Annual Conference of the European Association for Computer Graphics",
+      "location": "Aachen, Germany",
+      "rank": "CORE A",
+      "responsibilities": [
+        "Reviewing papers submitted to the Short Papers track",
+        "Finding reviewers for assigned papers",
+        "Initiating, leading and maintaining discussions on paper acceptance once all reviews are in",
+        "Preparing final acceptance decisions based on reviewer discussions",
+        "Preparing author communications with the final decision, a summary of strengths and weaknesses, and suggested revisions"
+      ]
+    }
+  ],
+
+  "awards": [
+    {
+      "title": "2nd Place — ACM SIGGRAPH 2024 Student Research Competition (Graduate Student category)",
+      "year": 2024,
+      "venue": "SIGGRAPH 2024",
+      "rank": "CORE A*",
+      "work": "Neuro-Symbolic Transformation of Architectural Facades into Their Procedural Representations",
+      "note": "Presented at SIGGRAPH 2024 and defended before the competition jury after the first selection round.",
+      "jury_comment": "Congratulations on winning Second Place in the ACM SIGGRAPH 2024 Student Research Competition for graduate work! Your submission Neuro-Symbolic Transformation of Architectural Facades into Their Procedural Representations (SIGGRAPH 2024 Poster) was impressive in its execution, expansion upon state-of-the-art ideas, practicality, and visual results. Your presentation was also very well received by the jury."
+    }
+  ],
+
+  "collaborations": [
+    {
+      "partners": "Ofir Gilad (PhD student) and Prof. Andrei Sharf — Ben-Gurion University, Israel",
+      "topic": "Capacity-constrained blue-noise point cloud generation with a prescribed density distribution map",
+      "period": "2025 – present",
+      "status": "Ongoing; two papers currently being prepared for conference submission"
+    },
+    {
+      "partners": "Haotian Yin (PhD student) — New Jersey Institute of Technology, United States",
+      "topic": "Neural signed distance fields",
+      "period": "2025",
+      "status": "Concluded; resulted in two publications at Pacific Graphics 2025 and SIGGRAPH Asia 2025"
+    }
+  ],
+
+  "teaching": {
+    "institution": "Faculty of Mathematics and Information Science, Warsaw University of Technology (WMiNI PW)",
+    "intro": "Research and teaching assistant at the Faculty of Mathematics & Information Science, Warsaw University of Technology — teaching, coordinating and creating courses in programming and computer graphics.",
+    "courses_taught": [
+      { "course": "Programming 1 – Fundamentals", "role": "Instructor (labs / tutorials)", "terms": ["2020 Winter", "2021 Winter", "2023 Winter"] },
+      { "course": "Programming 2 – Object-Oriented", "role": "Instructor (labs)", "terms": ["2021 Summer", "2023 Summer", "2024 Summer", "2025 Summer", "2026 Summer"] },
+      { "course": "Computer Graphics 1", "role": "Instructor (labs)", "terms": ["2023 Summer", "2023 Winter", "2024 Summer", "2024 Winter", "2025 Summer", "2025 Winter", "2026 Summer"] },
+      { "course": "Object-Oriented Design", "role": "Instructor (labs)", "terms": ["2023 Summer", "2024 Summer", "2025 Summer"] },
+      { "course": "Virtual Environment Design", "role": "Instructor (project)", "terms": ["2023 Winter", "2024 Winter", "2025 Winter"] },
+      { "course": "Applications of Modern AI Methods in Computer Graphics", "role": "Instructor (project)", "terms": ["2025 Summer"] }
+    ],
+    "courses_coordinated": [
+      { "course": "Applications of Modern AI Methods in Computer Graphics", "term": "2025 Summer" },
+      { "course": "Virtual Environment Design", "term": "2025 Winter" },
+      { "course": "Virtual Technologies in the Information Society", "term": "2025 Winter" }
+    ],
+    "courses_created": [
+      {
+        "course": "Applications of Modern AI Methods in Computer Graphics",
+        "level": "MSc elective",
+        "description": "Designed, coordinated and taught a new elective closely tied to my research. It gives students a smooth entry into applying AI in computer graphics through hands-on projects, so they can confidently continue on their own with modern methods and technologies."
+      }
+    ],
+    "supervised_theses": [
+      {
+        "date": "2025-02",
+        "level": "BSc (Engineering) thesis",
+        "level_short": "BSc eng.",
+        "title": "Real-Time Raytracing Techniques in a Low-Level Graphics API",
+        "students": ["Aleksander Szydłowski", "Patryk Sukiennik", "Michał Paciorek"]
+      },
+      {
+        "date": "2025-02",
+        "level": "BSc (Engineering) thesis",
+        "level_short": "BSc eng.",
+        "title": "Agent-Based Simulation and 3D Visualization of a Logistics Network",
+        "students": ["Mateusz Nędzi", "Mateusz Polis"]
+      }
+    ]
+  },
+
+  "grants": [
+    { "role": "Contractor", "title": "Development and evaluation of parallel computing algorithms and efficient processing of spatial geometric structures – part 2", "funder": "Faculty grant (Faculty of Mathematics and Information Science)", "year": 2025 },
+    { "role": "Contractor", "title": "Development and evaluation of parallel computing algorithms and efficient processing of spatial geometric structures", "funder": "Faculty grant (Faculty of Mathematics and Information Science)", "year": 2024 },
+    { "role": "Contractor", "title": "Development and evaluation of algorithms for efficient processing of spatial geometric structures – part III", "funder": "Faculty grant (Faculty of Mathematics and Information Science)", "year": 2023 }
+  ],
+
+  "outreach": [
+    {
+      "year": 2024,
+      "title": "Guest lecture organization — Prof. Przemysław Musialski (NJIT)",
+      "description": "Helped organize the guest lecture \"Neural Frontiers: Modern Machine Learning in Computer Graphics on a Neural Modeling Example\" for the 7th anniversary of the Virtual Reality Student Club, Faculty of Mathematics and Information Science."
+    },
+    {
+      "year": 2023,
+      "title": "Education in Virtual Reality",
+      "description": "Taught mathematics, physics, chemistry and biology in VR to high-school and 8th-grade primary-school students. Faculty of Mathematics and Information Science, Warsaw University of Technology."
+    },
+    {
+      "year": 2023,
+      "title": "7th Mathematics Popularization Day",
+      "description": "Ran \"Experiment in Virtual Reality\" workshops for students."
+    },
+    {
+      "year": 2023,
+      "title": "27th Science Festival in Warsaw",
+      "description": "Ran \"Experiment in Virtual Reality\" workshops for students."
+    }
+  ],
+
+  "experience": [
+    { "start": "2023-10", "end": "present", "role": "Research and Teaching Assistant", "org": "Faculty of Mathematics and Information Science, Warsaw University of Technology", "description": "Research in computer graphics and geometric modeling with related publications; teaching, coordinating and creating courses." },
+    { "start": "2025-12", "end": "present", "role": "PhD Student", "org": "Akces NCBR", "description": "Member of the Computer Graphics Research Group. Research on the precision and controllability of neural models and their generated results; discussions with companies on potential commercialization and preparing research code for it." },
+    { "start": "2023-12", "end": "2025-11", "role": "PhD Student", "org": "IDEAS NCBR", "description": "Same role as above; employer name changed following a merger, with no change to role or responsibilities." },
+    { "start": "2021-10", "end": "2023-03", "role": "R&D Engineer", "org": "CD PROJEKT RED", "description": "Developed solutions for geometry processing and procedural generation (specifics under NDA); combined state-of-the-art methods from the literature with new solutions and implemented prototypes (C++, Unreal Engine, Python)." },
+    { "start": "2020-10", "end": "2023-09", "role": "Laboratory Instructor", "org": "Warsaw University of Technology", "description": "Taught laboratory classes at the Faculty of Mathematics and Information Science." },
+    { "start": "2019-10", "end": "2021-09", "role": "Unity/C# Programmer", "org": "Noobz from Poland S.A.", "description": "Lead Programmer on a battle-simulator game (core systems, task planning and distribution, code reviews); Mid-Level Programmer on a large 4X game (gameplay and data-management systems)." },
+    { "start": "2019-09", "end": "2020-07", "role": "Junior Full-Stack Developer", "org": "VocApp", "description": "Built and maintained a web app for assessing foreign-language proficiency (PHP)." },
+    { "start": "2019-07", "end": "2019-08", "role": "Programmer Intern", "org": "VocApp", "description": "Developed a method for estimating a person's known vocabulary size in a foreign language (Python)." }
+  ],
+
+  "education": [
+    {
+      "degree": "MSc in Computer Science and Information Systems (with distinction)",
+      "specialization": "CAD/CAM Systems Design",
+      "institution": "Faculty of Mathematics and Information Science, Warsaw University of Technology",
+      "grade": "Excellent (celujący)"
+    },
+    {
+      "degree": "BSc in Computer Science",
+      "specialization": "",
+      "institution": "Faculty of Mathematics, Informatics and Mechanics, University of Warsaw",
+      "grade": "Good plus (dobry plus)"
+    }
+  ],
+
+  "certifications": [
+    { "name": "Certificate of Proficiency in English (CPE)", "issuer": "British Council", "level": "C2" }
+  ],
+
+  "conferences_attended": [
+    { "event": "EUROGRAPHICS 2026", "location": "Aachen, Germany", "upcoming": true },
+    { "event": "SIGGRAPH Asia 2025", "location": "Hong Kong, China" },
+    { "event": "Pacific Graphics 2025", "location": "Taipei, Taiwan" },
+    { "event": "SIGGRAPH 2025", "location": "Vancouver, Canada" },
+    { "event": "SIGGRAPH Asia 2024", "location": "Tokyo, Japan" },
+    { "event": "SIGGRAPH 2024", "location": "Denver, United States" },
+    { "event": "GMP 2024", "location": "Qingdao, China" },
+    { "event": "FedCSIS 2023", "location": "Warsaw, Poland" }
+  ]
+}
