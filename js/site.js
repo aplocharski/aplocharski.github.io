@@ -68,14 +68,21 @@
       ? `<a class="${cls}" href="${esc(url)}" target="_blank" rel="noopener">${inner}</a>`
       : `<span class="${cls}">${inner}</span>`;
   }
+  function emailRows() {
+    const emails = (DATA.profile.emails || []).filter(Boolean);
+    if (!emails.length) return '<div class="mail"><span class="mail-label">mail</span>‹tbd›</div>';
+    return emails.map((e) => {
+      const addr = typeof e === 'string' ? e : e.address;
+      const label = typeof e === 'string' ? 'mail' : (e.label || 'mail');
+      return `<div class="mail"><span class="mail-label">${esc(label)}</span>` +
+        `<a href="mailto:${esc(addr)}">${esc(addr)}</a></div>`;
+    }).join('');
+  }
 
   /* ---------- identity (rail + mobile hero + top bar) ---------- */
   function railHtml() {
     const p = DATA.profile;
-    const emails = (p.emails || []).filter(Boolean);
-    const mailRows = emails.length
-      ? emails.map((e) => `<div class="mail">mail: <a href="mailto:${esc(e)}">${esc(e)}</a></div>`).join('')
-      : '<div class="mail">mail: ‹tbd›</div>';
+    const mailRows = emailRows();
     const nav = DATA.nav.map((n, i) => {
       const active = n.id === state.section;
       return `<a class="rail-nav${active ? ' active' : ''}" href="#/${esc(n.id)}"${active ? ' aria-current="page"' : ''}>` +
@@ -123,6 +130,7 @@
         </div>
       </div>
       <p class="bio">${esc(p.bio_draft)}</p>
+      <div class="hero-contact">${emailRows()}</div>
       <div class="hero-links">${links}</div>`;
   }
 

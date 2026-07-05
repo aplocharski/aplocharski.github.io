@@ -54,7 +54,8 @@ a:focus-visible, button:focus-visible { outline: 2px solid var(--acc); outline-o
 .rail-label:first-of-type { margin-top: 20px; }
 .rail-label .line { flex: 1; border-top: 1px solid rgba(27, 26, 23, .2); }
 .mail { margin: 10px 0 0; font: 400 11.5px var(--mono); color: var(--ink-soft); }
-.mail a { text-decoration: none; }
+.mail a { text-decoration: none; word-break: break-word; }
+.mail-label { display: block; font: 500 9px var(--mono); letter-spacing: .14em; text-transform: uppercase; color: var(--mut); margin-bottom: 3px; }
 .rail-nav-list { margin: 10px 0 0; display: flex; flex-direction: column; }
 .rail-nav {
   display: flex; gap: 12px; align-items: center; padding: 13px 14px;
@@ -219,6 +220,7 @@ img.pub-thumb { padding: 0; display: block; object-fit: cover; background: none;
   .hero-id .sub { margin: 6px 0 0; font: 400 10px/1.4 var(--mono); color: var(--acc); }
   .hero-id .affil { margin: 8px 0 0; font: 400 11px/1.5 var(--sans); color: var(--ink-soft); }
   .mobile-hero .bio { margin: 13px 0 0; font: 400 12px/1.6 var(--sans); color: var(--ink-soft); }
+  .hero-contact { margin: 14px 0 0; }
   .hero-links { margin: 13px 0 0; display: flex; flex-wrap: wrap; gap: 7px; }
   .chip-link {
     display: flex; align-items: center; gap: 5px; padding: 6px 11px;

@@ -14,7 +14,10 @@
     ],
     "location": "Warsaw, Poland",
     "photo": "assets/img/photo2_565x565.png",
-    "emails": ["aleksander.plocharski@pw.edu.pl", "aleksander.plocharski@gmail.com"],
+    "emails": [
+      { "label": "Institutional email", "address": "aleksander.plocharski@pw.edu.pl" },
+      { "label": "Private email", "address": "aleksander.plocharski@gmail.com" }
+    ],
     "links": {
       "google_scholar": "https://scholar.google.com/citations?user=VvlYd5kAAAAJ&hl=en",
       "github": "https://github.com/Alek-Plocharski",
