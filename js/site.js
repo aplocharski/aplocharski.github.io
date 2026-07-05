@@ -8,7 +8,7 @@
 
   const TABS = [
     { id: 'publications', label: 'publications' },
-    { id: 'reviewing', label: 'reviewing &amp; service' },
+    { id: 'reviewing', label: 'reviewing' },
     { id: 'talks', label: 'talks' },
   ];
   const LINK_LABELS = { google_scholar: 'scholar', github: 'github', linkedin: 'linkedin', orcid: 'orcid' };
@@ -142,7 +142,6 @@
       const opt = type === 'journal' || type === 'conference' ? ' opt' : '';
       parts.push(`<span class="m${opt}"> · ${esc(type)}</span>`);
     }
-    parts.push(`<span class="m"> · ${esc(statusLabel(pub.status))}</span>`);
     if (pub.year && !String(pub.venue).includes(String(pub.year))) {
       parts.push(`<span class="m opt"> · ${esc(pub.year)}</span>`);
     }
@@ -199,7 +198,7 @@
       <span class="talk-date">${esc(fmtDate(talk.date))}</span>
       <div class="talk-body">
         <div class="talk-title">${esc(talk.title)}</div>
-        <div class="talk-venue">${esc(talk.event)} · ${esc(talk.location)}</div>
+        <div class="talk-venue"><span class="venue">${esc(talk.event)}</span> · ${esc(talk.location)}</div>
       </div>
       ${tag}
     </div>`;
